@@ -1,0 +1,57 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soạn thảo 3 Phím - Tiếng Việt</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Cột 1: Văn bản -->
+        <div class="panel text-panel" id="text-panel">
+            <div id="text-display" aria-live="polite"></div>
+            <!-- <div id="cursor">|</div> -->
+        </div>
+
+
+        <!-- Cột 2: 3 nhóm chọn -->
+        <div class="panel groups-panel">
+            <div class="group-box">
+                <h4>Nhóm 1</h4>
+                <div id="group1" class="group-content"></div>
+            </div>
+            <div class="group-box">
+                <h4>Nhóm 2</h4>
+                <div id="group2" class="group-content"></div>
+            </div>
+            <div class="group-box">
+                <h4>Nhóm 3</h4>
+                <div id="group3" class="group-content"></div>
+            </div>
+        </div>
+
+        <!-- Cột 3: Gợi ý -->
+        <div class="panel suggestion-panel">
+            <h3>Gợi ý:</h3>
+            <div id="suggestions"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+<!-- Nút hướng dẫn -->
+<button id="help-btn" class="help-button">? HƯỚNG DẪN</button>
+
+<!-- Modal hiển thị hướng dẫn -->
+<div id="help-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Hướng dẫn sử dụng</h2>
+        <pre id="help-content"></pre>
+    </div>
+</div>
+
+</body>
+</html>
