@@ -1,18 +1,23 @@
-
-
 HƯỚNG DẪN SỬ DỤNG
 
 1. Ứng dụng này cho phép bạn soạn thảo văn bản tiếng Việt chỉ bằng 3 phím: 1, 2, 3.
 2. Mỗi lần nhấn phím, hệ thống sẽ chọn lần lượt Nhóm 1, Nhóm 2 hoặc Nhóm 3.
-3. Tiếp tục nhấn 1/2/3 cho đến khi chỉ còn 1 ký tự → ký tự đó được chèn vào văn bản.
-4. Hỗ trợ gõ Telex như sau: 
-   - nếu bạn muốn gõ chữ 'tôi', cần gõ: t -> o -> o -> i, nếu gõ t -> o -> i -> o thì sẽ ra toio
+3. Cấu trúc:
+   Nhóm 1: 19/26 chữ cái tiếng anh thông dụng: a, b, c, d, e, g, h, i, k, l, m, n, o, p, q, t, u, v, y
+   Nhóm 2: 
+      7 chữ cái còn lại (f, s, x, r, j: cho việc viết dấu thanh; w, z: là 2 kí tự không có trong tiếng việt).
+      10 chữ số: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9.
+   Nhóm 3:
+      5 phím chức năng: delete (xóa từ gần nhất), enter (xuống dòng), backspace, spacebar, gợi ý.
+      13 dấu câu: ., ,, ?, !, :, ;, (, ), ", -, ..., ', /
+4. Tiếp tục nhấn 1/2/3 cho đến khi chỉ còn 1 ký tự → ký tự đó được chèn vào văn bản.
+5. Hỗ trợ gõ Telex như sau: 
+   - Nếu bạn muốn gõ chữ 'tôi', cần gõ: t -> o -> o -> i, nếu gõ t -> o -> i -> o thì sẽ ra toio
    - Dấu: s (sắc), f (huyền), r (hỏi), x (ngã), j (nặng)
-   - ví dụ:
+   - Ví dụ:
       'nếu' = n -> e -> e -> s -> u (n -> e -> u -> e -> s = neué)
       'chào' = c -> h -> a -> f -> o (c -> h -> a -> o -> f = chaò)
       'mời' = m -> o -> w -> f -> i (m -> o -> f -> w -> i = mòwi)
-5. Phím "delete": xóa từ cuối cùng.
 6. Phím "gợi ý": hiển thị từ đề xuất → chọn bằng 1/2/3.
 
 Chúc bạn sử dụng hiệu quả!
