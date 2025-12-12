@@ -84,6 +84,10 @@ def apply_telex_fully(text):
         if i + 1 < n:
             next_c = text[i + 1]
             # Xử lý 'w' — nhưng chỉ khi là tổ hợp
+            if c == 'a' and next_c == 'w':
+                result.append('ă')
+                i += 2
+                continue
             if c == 'a' and next_c == 'a':
                 result.append('â')
                 i += 2
