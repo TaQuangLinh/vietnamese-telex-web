@@ -206,7 +206,6 @@ bao gồm
 phân bố
 hệ thống hóa
 giao diện
-chức năng
 mô phỏng
 tương tác
 tự nhiên
@@ -249,21 +248,16 @@ nâng cấp
 chuyển đổi
 định lượng
 định tính
-tôi
 muốn
 nói
 là
-xin chào
 nhé
 mọi người
 yêu
 ghét
 môn KHTK
-khoa học
 thần kinh
 tính toán
-giáo viên
-học sinh
 sinh viên
 kĩ sư
 công nhân
@@ -272,15 +266,8 @@ mẹ
 cha
 ba
 má
-anh
-chị
-em
-cô
 dì
-chú
-bác
 trường học
-đại học
 con trâu
 gà
 bò
@@ -297,5 +284,18 @@ số lượng
 số
 tính yêu
 cuộc sống
-môi trường
+dữ liệu
+trí nhớ
+nhận thức
+suy luận
+học máy
+mô hình hóa
+phân loại
+dự đoán
+huấn luyện
+kiểm thử
+đánh nhãn
+tiền xử lý
+hậu xử lý
+độ chính xác
 
